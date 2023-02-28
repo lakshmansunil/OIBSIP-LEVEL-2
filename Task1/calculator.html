@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Calculator</title>
+
+        <link rel="stylesheet" href="calc.css" />
+        
+    </head>
+    <body>
+        
+        <table class="box">
+    
+            <tr>
+            <th id="answer" colspan="5" style="padding: 0.5cm; height: 2.5cm; text-align: right;"></th>
+             </tr>
+
+             <tr>
+                <td onclick="bo()">(</td>
+                <td onclick="bc()">)</td>
+                <td onclick="ans()">ans</td>
+                <td onclick="del()">del</td>
+                <td onclick="ce()">CE</td>
+             </tr>
+
+             <tr>
+                <th onclick="display('7')">7</th>
+                <th onclick="display('8')">8</th>
+                <th onclick="display('9')">9</th>
+                <td onclick="display('%')">%</td>
+                <td onclick="root()">√</td>
+             </tr>
+
+             <tr>
+                <th onclick="display('4')">4</th>
+                <th onclick="display('5')">5</th>
+                <th onclick="display('6')">6</th>
+                <td onclick="display2('*','×')">×</td>
+                <td onclick="display2('/','÷')">÷</td>
+             </tr>
+
+             <tr>
+                <th onclick="display('1')">1</th>
+                <th onclick="display('2')">2</th>
+                <th onclick="display('3')">3</th>
+                <td onclick="display('+')">+</td>
+                <td onclick="display('-')">-</td>
+             </tr>
+
+             <tr>
+                <td onclick="display('.')">.</td>
+                <th onclick="display('0')">0</th>
+                <td onclick="display2('**','^')">^</td>
+                <td colspan="2" onclick="entering()">enter</td>
+             </tr>
+        </table>
+        
+        
+    </body>
+    <script src="calc.js">
+        
+    </script>
+</html>

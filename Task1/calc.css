@@ -1,0 +1,64 @@
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.box {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 320px;
+}
+
+.box th {
+    padding: 1em;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box td {
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box td:hover, .box th:hover {
+    background-color: #e6e6e6;
+}
+
+/* Define specific styles */
+#answer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #666;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.box td[colspan="2"], .box th[colspan="2"] {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+.box td:last-child {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.box th:last-child {
+    background-color: #f2f2f2;
+    border-right: 4px solid #cc0000;
+}
+
+.box th:first-child {
+    border-left: 4px solid #cc0000;
+}
